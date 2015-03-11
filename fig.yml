@@ -1,0 +1,17 @@
+wordpress:
+  build: .
+  # image: framallo/php-fpm
+  links:
+    - db:mysql
+  ports:
+    - 8080:80
+  environment:
+    DB_NAME: wordpress_development
+    DB_USER: root
+    DB_PASS: 12345Abc
+
+db:
+  image: mariadb
+  environment:
+    MYSQL_ROOT_PASSWORD: 12345Abc
+
