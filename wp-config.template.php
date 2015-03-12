@@ -15,13 +15,13 @@
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', '{DB_NAME}');
+define('DB_NAME', '${DB_NAME}');
 /** MySQL database username */
-define('DB_USER', '{DB_USER}');
+define('DB_USER', '${DB_USER}');
 /** MySQL database password */
-define('DB_PASSWORD', '{DB_PASS}');
+define('DB_PASSWORD', '${DB_PASS}');
 /** MySQL hostname */
-define('DB_HOST', '{MYSQL_PORT_3306_TCP_ADDR}:{MYSQL_PORT_3306_TCP_PORT}');
+define('DB_HOST', '${MYSQL_PORT_3306_TCP_ADDR}:${MYSQL_PORT_3306_TCP_PORT}');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
@@ -35,14 +35,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '{AUTH_KEY}');
-define('SECURE_AUTH_KEY',  '{SECURE_AUTH_KEY}');
-define('LOGGED_IN_KEY',    '{LOGGED_IN_KEY}');
-define('NONCE_KEY',        '{NONCE_KEY}');
-define('AUTH_SALT',        '{AUTH_SALT}');
-define('SECURE_AUTH_SALT', '{SECURE_AUTH_SALT}');
-define('LOGGED_IN_SALT',   '{LOGGED_IN_SALT}');
-define('NONCE_SALT',       '{NONCE_SALT}');
+define('AUTH_KEY',         '${AUTH_KEY}');
+define('SECURE_AUTH_KEY',  '${SECURE_AUTH_KEY}');
+define('LOGGED_IN_KEY',    '${LOGGED_IN_KEY}');
+define('NONCE_KEY',        '${NONCE_KEY}');
+define('AUTH_SALT',        '${AUTH_SALT}');
+define('SECURE_AUTH_SALT', '${SECURE_AUTH_SALT}');
+define('LOGGED_IN_SALT',   '${LOGGED_IN_SALT}');
+define('NONCE_SALT',       '${NONCE_SALT}');
 /**#@-*/
 /**
  * WordPress Database Table prefix.
