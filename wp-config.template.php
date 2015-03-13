@@ -21,7 +21,7 @@ define('DB_USER', '${DB_USER}');
 /** MySQL database password */
 define('DB_PASSWORD', '${DB_PASS}');
 /** MySQL hostname */
-define('DB_HOST', '${MYSQL_PORT_3306_TCP_ADDR}:${MYSQL_PORT_3306_TCP_PORT}');
+define('DB_HOST', '${MYSQL_PORT_3306_TCP_ADDR}:${DB_1_PORT_3306_TCP_PORT}');
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
@@ -50,7 +50,7 @@ define('NONCE_SALT',       '${NONCE_SALT}');
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+\$table_prefix  = 'wp_';
 /**
  * WordPress Localized Language, defaults to English.
  *

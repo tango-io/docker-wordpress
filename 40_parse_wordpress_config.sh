@@ -9,5 +9,9 @@ render_template() {
   eval "echo \"$(cat $1)\""
 }
 
-user="Gregory"
 render_template /var/www/wp-config.template.php > /var/www/wp-config.php
+
+
+# echo 'wp-config'
+# cat -n /var/www/wp-config.php 
+
