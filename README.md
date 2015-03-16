@@ -1,6 +1,6 @@
 # Wordpress docker instance
 
-You can run this instance with `fig up`. You require [fig](http://www.fig.sh/)
+You can run this instance with `docker-compose up`. You require [docker compose](https://github.com/docker/compose)
 
 
 # salt secrets
