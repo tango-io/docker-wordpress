@@ -20,6 +20,7 @@ ENV AUTH_SALT           A2|G[jvSLB+z dy S/ S>(lLyzxDvJ8(ps1(F%~x]eRD`UHv(h*IDjye
 ENV SECURE_AUTH_SALT    9cv/Hy~a;qr]4)i*udy-/$non@_:CU0SIdm-L[WH^k_}s:Jq[)HV,Wu8na<_;ef3
 ENV LOGGED_IN_SALT      {d*4OCrk9x`|cb-4EBK7=ewJ3D]y%z,7mSEd:8?=eP![zD.O`<Uubt-u%@TA+x T
 ENV NONCE_SALT          z6G5thFC]JIW]|ZQIBgZ?zBb^!N#3-Un=)`!Xb/,Yd8[2&}.W{ITu?=PE0oZ,<8^
+ENV WP_RELOCATE true
 
 RUN rm /var/www/index.php
 
