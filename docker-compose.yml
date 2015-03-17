@@ -9,6 +9,11 @@ wordpress:
     DB_NAME: wordpress_development
     DB_USER: root
     DB_PASS: 12345Abc
+    #VERBOSE_TEMPLATES: true
+    #WP_RELOCATE: false
+    #WP_HOME: "WP_HOME"
+    #WP_SITEURL: "WP_SITEURL"
+      
 
 db:
   image: mariadb
