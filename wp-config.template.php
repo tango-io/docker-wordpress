@@ -79,6 +79,6 @@ define("FS_METHOD","direct");
 define("FS_CHMOD_DIR", 0777);
 define("FS_CHMOD_FILE", 0777);
 
-define('RELOCATE','${WP_RELOCATE}');
+define('RELOCATE',${WP_RELOCATE});
 $( [ ! -z "$WP_HOME" ] && echo "define('WP_HOME','${WP_HOME}');" )
 $( [ ! -z "$WP_SITEURL" ] && echo "define('WP_HOME','${WP_SITEURL}');" )
